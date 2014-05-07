@@ -133,12 +133,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.msm8974
 
-# FM radio
-PRODUCT_PACKAGES += \
-    qcom.fmradio \
-    libqcomfm_jni \
-    FM2 \
-    FMRecord
 
 # Nfc
 ifeq ($(TARGET_BUILD_VARIANT),user)
